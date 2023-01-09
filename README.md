@@ -98,3 +98,4 @@ Unsubscribes you from all YouTube channels.
 - <a href="https://stackoverflow.com/questions/11715646/scroll-automatically-to-the-bottom-of-the-page">Scroll automatically to bottom of page</a>
 - <a href="https://stackoverflow.com/questions/24947837/javascript-page-is-fully-loaded-boolean-check">Execute code only if page fully loaded</a>
 - <a href="https://stackoverflow.com/questions/1145850/how-to-get-height-of-entire-document-with-javascript">Get height of entire document</a>
+- <a href="https://stackoverflow.com/questions/3715047/how-to-reload-a-page-using-javascript">How to reload a website</a>
