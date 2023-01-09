@@ -35,6 +35,15 @@ if(i===totalToBeUnsubbed-1)return finalMeasures()
 await createRandomDelay(1500,2500)},(i+1)*timeOut)}})()
 ```
 
+# Notes
+- Script will automatically reload the page 10 seconds after finishing.
+- If there are any subscriptions left, simply run the script again.
+
+# Tools
+- <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox browser</a>
+- <a href="https://firefox-source-docs.mozilla.org/devtools-user/">Firefox DevTools User Docs</a>
+- <a href="https://www.cleancss.com/javascript-minify/">JavaScript minifier</a>
+
 # References
 - <a href="https://stackoverflow.com/questions/48874382/how-to-unsubscribe-from-all-the-youtube-channels-at-once">Unsubscribe from all YouTube channels at once</a>
 - <a href="https://stackoverflow.com/questions/10351658/javascript-get-custom-buttons-text-value">Get button's text</a>
