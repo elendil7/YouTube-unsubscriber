@@ -18,11 +18,27 @@
     }, 1000); 
   }
   
+  // sleep function for specific delay
+  const sleep = (secs) => {
+    return new Promise((res) => setTimeout(res, secs * 1000));
+  };
+  
   // random delay function for random delays
   const createRandomDelay = async (start, end) => {
     const delay = Math.floor(Math.random() * (end - start + 1)) + start;
     return new Promise((resolve) => setTimeout(resolve, delay));
   };
+  
+  // final code to be run after all subscriptions removed
+  const finalMeasures = async () => {
+    // some messages to console
+    console.log(`<<< Done - ${totalToBeUnsubbed} subscriptions erased from existence! >>>`)
+    console.log("!!! Reloading page in 10 seconds... !!!")
+    // wait 10 seconds
+    await sleep(10)
+    // reload page
+   	window.location.reload()
+  }
   
   // keep scrolling indefinitely until reached the very bottom of the page
   let prevGridContentLength = 0
@@ -75,7 +91,7 @@
       console.log(`<<< Unsubscribed from the channel "${channelNames[i]}". >>>`)
       console.log(`    ${totalLeftToBeUnsubbed} channels left.`)
       // if on last subscription, send final confirmation message
-      if(i === totalToBeUnsubbed - 1) console.log(`<<< Done - ${totalToBeUnsubbed} subscriptions erased from existence! >>>`)
+      if(i === totalToBeUnsubbed - 1) return finalMeasures()
 
 			await createRandomDelay(1500, 2500) // pause
     }, (i + 1) * timeOut)
