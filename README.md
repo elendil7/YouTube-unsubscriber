@@ -45,9 +45,21 @@ await createRandomDelay(1500,2500)},(i+1)*timeOut)}})()
 - <a href="https://www.cleancss.com/javascript-minify/">JavaScript minifier</a>
 
 # References
+
+## Forums
+
 - <a href="https://stackoverflow.com/questions/48874382/how-to-unsubscribe-from-all-the-youtube-channels-at-once">Unsubscribe from all YouTube channels at once</a>
 - <a href="https://stackoverflow.com/questions/10351658/javascript-get-custom-buttons-text-value">Get button's text</a>
 - <a href="https://stackoverflow.com/questions/11715646/scroll-automatically-to-the-bottom-of-the-page">Scroll automatically to bottom of page</a>
 - <a href="https://stackoverflow.com/questions/24947837/javascript-page-is-fully-loaded-boolean-check">Execute code only if page fully loaded</a>
 - <a href="https://stackoverflow.com/questions/1145850/how-to-get-height-of-entire-document-with-javascript">Get height of entire document</a>
 - <a href="https://stackoverflow.com/questions/3715047/how-to-reload-a-page-using-javascript">How to reload a website</a>
+- <a href="https://stackoverflow.com/questions/17620222/chrome-go-to-url-via-console">Navigate to different URL via browser console</a>
+- <a href="https://stackoverflow.com/questions/1033398/how-to-execute-a-function-when-page-has-fully-loaded">Wait for page to be fully loaded (event listener)</a>
+- <a href="https://stackoverflow.com/questions/12329008/scrolling-to-the-next-element">Scroll to next element & animate transition</a>
+
+## Documentation
+- <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView">Element.scrollIntoView()</a>
+
+<!-- <a href=""></a> -->
+
