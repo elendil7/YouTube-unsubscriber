@@ -43,6 +43,7 @@ await createRandomDelay(1500,2500)},(i+1)*timeOut)}})()
 - <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox browser</a>
 - <a href="https://firefox-source-docs.mozilla.org/devtools-user/">Firefox DevTools User Docs</a>
 - <a href="https://www.cleancss.com/javascript-minify/">JavaScript minifier</a>
+- <a href="https://searchenginereports.net/js-minify">Another JS minifier</a>
 
 # References
 
